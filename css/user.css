@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.mycontainer {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  background-image: url(../images/user_menu.jpg);
+  background-size: cover !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  justify-content: space-between !important;
+}
+.container > div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 20px;
+  width: fit-content;
+  font-size: 30px;
+}
+.item {
+  display: flex;
+}
+.profile {
+  /* display: flex;
+  justify-content: flex-end; */
+  margin-right: 0;
+  margin-left: 100wh;
+}
